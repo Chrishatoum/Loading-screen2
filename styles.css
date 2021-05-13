@@ -1,1 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.loading-screen{
+	width: 100%;
+	height: 100vh;
+	background-color: #2e2e2e;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loading{
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+@keyframes ballup{
+
+	50%{
+			transform: translateY(-50px);
+	}
+}
+
+
+.loading span{
+	width: 32px;
+	height: 32px;
+	margin: 3px;
+	animation: ballup 1.5s ease infinite ;
+}
+
+#ball1{
+	border-radius: 50% 50% 50% 50%;
+	background-color:#f5634a ;
+	animation-delay: 2.25s;
+}
+
+#ball2{
+	border-radius: 50% 50% 50% 50%;
+	background-color: #778beb;
+	animation-delay: 2s;
+}
+
+#ball3{
+	border-radius: 50% 50% 50% 50%;
+	background-color:#9b2948 ;
+	animation-delay: 1.75s;
+}
+
+#ball4{
+	border-radius: 50% 50% 50% 50%;
+	background-color:#008080 ;
+	animation-delay: 1.5s;
+}
+
+#ball5{
+	border-radius: 50% 50% 50% 50%;
+	background-color: #e77f67;
+	animation-delay: 1.25s;
+}
+
+#ball6{
+	border-radius: 50% 50% 50% 50%;
+	background-color: #f5cd79;
+	animation-delay: 1s;
+}
+
+#ball7{
+	border-radius: 50% 50% 50% 50%;
+	background-color: orange;
+	animation-delay: .75s;
+}
+
+#ball8{
+	border-radius: 50% 50% 50% 50%;
+	background-color: #ff6f69;
+	animation-delay: .5s;
+}
+
+#ball9{
+	border-radius: 50% 50% 50% 50%;
+	background-color: #88d8b0;
+	animation-delay: .25s;
+}
+
+#ball10{
+	border-radius: 50% 50% 50% 50%;
+	background-color: #aa6f73;
+	clear: all;
+	
+	
+}
+
 
